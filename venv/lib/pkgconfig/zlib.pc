@@ -1,0 +1,13 @@
+prefix=/Users/vijayvaishnav/Desktop/Project/venv
+exec_prefix=/Users/vijayvaishnav/Desktop/Project/venv
+libdir=/Users/vijayvaishnav/Desktop/Project/venv/lib
+sharedlibdir=/Users/vijayvaishnav/Desktop/Project/venv/lib
+includedir=/Users/vijayvaishnav/Desktop/Project/venv/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
